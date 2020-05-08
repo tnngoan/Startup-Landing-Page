@@ -20,10 +20,10 @@
 }
 .an-img {
   border-radius: 3%;
-  min-height: 220px;
-  max-height: 220px;
-  max-width: 90%;
-  min-width: 80%;
+  min-height: 250px;
+  max-height: 250px;
+  max-width: 100%;
+  min-width: 95%;
   transition: 0.5s ease;
 }
 .an-name {
@@ -59,7 +59,7 @@
   max-width: 200px;
 }
 .an-company:hover {
-  box-shadow: -8px 8px 8px grey;
+  box-shadow: -8px 8px 8px lightgrey;
   border: 0px solid whitesmoke;
 }
 .an-card:hover .an-name {
