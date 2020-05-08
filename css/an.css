@@ -1,0 +1,15 @@
+
+
+.containertwo {
+    display: flex;
+}
+
+.social-icons a{
+    display: flex;
+align-items: center;
+}
+
+.container text-left {
+    margin-top: 10px;
+}
+
