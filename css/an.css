@@ -1,5 +1,5 @@
 .an-section {
-  background-color: black;
+  background-color: white;
 }
 .an-container {
   display: flex;
@@ -16,40 +16,45 @@
   text-align: center;
   align-items: center;
   padding-top: 20px;
-  background-color: black;
+  background-color: white;
 }
-.an-card:hover{
+.an-card:hover {
   background-color: whitesmoke;
-  box-shadow: 15px -15px 5px white;
-  border: 2px double black;
+  box-shadow: 5px -5px 10px lightskyblue;
+  border: 1px double lightseagreen;
 }
 .an-card:hover .an-role {
-  border: 1px solid lightgray;
+  border: 1px solid white;
   border-radius: 3px;
+  background-color: lightseagreen;  
+  color: white;
+  opacity: 0;
 }
 .an-card:hover .an-img {
-  opacity: 0.1;
-  border: 50px solid lightgray;
-  background-color: #33312E;
+  opacity: 0;
+  /* border: 5px solid lightgray; */
+  background-color: #33312e;
   box-shadow: -2px 2px 10px darkgray;
   border-radius: 0px;
-  /* background-color: whitesmoke; */
+}
+.an-card:hover .an-names{
+opacity: 1;
 }
 .an-img {
   border-radius: 3px;
-  border: 2px double black;
+  /* border: 1px double lightseagreen; */
   min-height: 250px;
   max-height: 250px;
   max-width: 100%;
   min-width: 95%;
-  transition: 0.5s ease;
+  transition: 1s ease;
   box-shadow: -7px 7px 10px white;
 }
 .an-name {
   opacity: 0;
-  position: relative;
-  top: 0;
-  right: 0;
+  position: absolute;
+  bottom: 50%;
+  left: 0;
   font-weight: 700;
   max-width: 80%;
   margin-left: 8%;
@@ -59,15 +64,17 @@
 .an-names {
   text-align: right;
   align-items: flex-end;
+  opacity: 0;
+  color: black;
+  font-weight: 700;
 }
 .an-centered {
   text-align: center;
 }
 .an-role {
   width: 100%;
-  background-color: black;
-  box-shadow: -4px 4px 10px white;
-  border: 1px solid black;
+  color: black;
+  border: 1px solid lightseagreen;
   border-radius: 5px;
 }
 .an-company {
@@ -113,9 +120,10 @@
 }
 
 .an-slide-bottom {
-  -webkit-animation: slide-bottom 1s ease-out both;
-  animation: slide-bottom 1s ease-out both;
+  -webkit-animation: slide-bottom 1.5s ease-out both;
+  animation: slide-bottom 1.5s ease-out both;
 }
+
 @-webkit-keyframes slide-bottom {
   0% {
     -webkit-transform: translateY(0);
