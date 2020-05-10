@@ -1,11 +1,14 @@
-Required Features 🎯
-[ ] User sees a specialized company logo
-[ ] User sees a footer
-[ ] User sees a carousel
-[ ] User sees a navigation bar
-[ ] User sees links in their navigation bar
-[ ] User sees a jumbotron with a call to action in the first section
-[ ] User sees consistent colors across the landing page
-[ ] User sees a project built using Bootstrap 4
-[ ] User sees an About Page with every member of the team listed with a personal quote
-[ ] User sees this site in production from anywhere in the world using Netlify or Github Pages
+<a href='https://tilkee-landing.netlify.app/' title='Tilkee'>Demo Website</a>
+<img src='imgdemo/Screenshot(49).png'/>
+<img src='imgdemo/Screenshot(37).png'/>
+<img src='imgdemo/Screenshot(38).png'/>
+<img src='imgdemo/Screenshot(39).png'/>
+<img src='imgdemo/Screenshot(40).png'/>
+<img src='imgdemo/Screenshot(41).png'/>
+<img src='imgdemo/Screenshot(42).png'/>
+<img src='imgdemo/Screenshot(43).png'/>
+<img src='imgdemo/Screenshot(44).png'/>
+<img src='imgdemo/Screenshot(45).png'/>
+<img src='imgdemo/Screenshot(46).png'/>
+<img src='imgdemo/Screenshot(47).png'/>
+<img src='imgdemo/Screenshot(48).png'/>
