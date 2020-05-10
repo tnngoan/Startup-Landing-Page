@@ -1,0 +1,69 @@
+.red{
+    color:white;
+    list-style-type:none;
+    text-decoration:none;
+}
+#banner-button{
+    list-style-type:none;
+    text-decoration:none;
+}
+#button-banner:hover{
+
+}
+.btn-cool:hover{
+    color:white;
+    list-style-type:none;    
+    text-decoration:none;
+}
+section{
+    margin:40px;
+}
+.center{
+    align-items:center;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
+  .margin{
+      margin:20px;
+  }
+  .margin-left{
+      margin-left:20px;
+  }
+  .margin-bottom{
+      margin-bottom:20px;
+  }
+  .list-style{
+      
+    list-style-type:none;  
+  }
+  .align-item-right{
+      margin-left: 800px;
+  }
+#banner{
+    color:white;
+    background-image: url('../img/BannerPoster.png');
+    background-repeat: no-repeat;
+    align-items:center;
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+}
+.nav-item{
+    color: yellow;
+}

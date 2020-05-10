@@ -19,9 +19,10 @@
   background-color: white;
 }
 .an-card:hover {
-  background-color: whitesmoke;
-  box-shadow: 5px -5px 10px lightskyblue;
+  background-color: white;
+  box-shadow: 5px -5px 10px lightseagreen;
   border: 1px double lightseagreen;
+  opacity: 0.7;
 }
 .an-card:hover .an-role {
   border: 1px solid white;
@@ -76,6 +77,7 @@ opacity: 1;
   color: black;
   border: 1px solid lightseagreen;
   border-radius: 5px;
+  background-color:#465192;
 }
 .an-company {
   box-shadow: -2px 2px 4px lightgrey;
@@ -108,8 +110,8 @@ opacity: 1;
 .an-txtshadow {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 15px gray, 0 0 5px whitesmoke;
-  font-weight: 700;
-  padding-top: 20px;
+  font-weight: 800;
+  width: 100%;
 }
 
 .an-text {

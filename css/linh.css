@@ -9,6 +9,7 @@
 
 .linh-container {
     margin: 100px auto;
+    min-height: 360px;
 }
 
 .linh-cities-title-wrapper {
@@ -30,9 +31,9 @@
 
 .linh-tab {
     float: right;
-    border: 1px solid #6a0dad;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border: 1px solid lightgrey;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     width: 30%;
     height: 300px;
     display: flex;
@@ -56,30 +57,30 @@
 }
 
 .linh-tab button:nth-child(1) {
-    border-top-right-radius: 20px;
+    border-top-right-radius: 5px;
 }
 
 .linh-tab button:nth-child(3) {
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 5px;
 }
 
 .linh-tab button:hover {
-    color: #e9d8f2;
-    background-color: #6a0dad;
+    color: black;
+    background-color: lightgrey;
 }
 
 .linh-tab button.active {
-    color: #e9d8f2;
-    background-color: #6a0dad;
+    color: black;
+    background-color: lightgrey;
 }
 
 .linh-tabcontent {
-    background-color: #6a0dad;
+    background-color: lightgrey;
     float: right;
     width: 70%;
     height: 300px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,5 +92,5 @@
     max-width: 95%;
     height: auto;
     max-height: 90%;
-    border-radius: 15px;
+    border-radius: 3px;
 }
