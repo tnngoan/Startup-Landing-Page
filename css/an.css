@@ -75,10 +75,10 @@ color: #084A83;
 }
 .an-role {
   width: 100%;
-  color: white;
+  color: #084A83;
   border: 1px solid #084A83;
   border-radius: 5px;
-  background-color:#084A83;
+  /* background-color:#084A83; */
 }
 .an-company {
   box-shadow: -2px 2px 4px lightgrey;
@@ -116,7 +116,7 @@ color: #084A83;
 }
 
 .an-text {
-  color: #539DDB;
+  color: #084A83;
   text-shadow: 1px 1px 2px black, 0 0 5px darkgrey, 0 0 2px white;
   padding-top: 30px;
   text-align: center;
