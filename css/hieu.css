@@ -3,10 +3,12 @@
     list-style-type:none;
     text-decoration:none;
 }
-}
-a{
+#banner-button{
     list-style-type:none;
     text-decoration:none;
+}
+#button-banner:hover{
+
 }
 .btn-cool:hover{
     color:white;
@@ -53,11 +55,15 @@ input[type=text] {
   .align-item-right{
       margin-left: 800px;
   }
-.jumbotron{
+#banner{
     color:white;
-    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-image: url('../img/BannerPoster.png');
     background-repeat: no-repeat;
     align-items:center;
     background-position: center;
-    background-
+    background-size: 100%;
+    box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
+}
+.nav-item{
+    color: yellow;
 }
