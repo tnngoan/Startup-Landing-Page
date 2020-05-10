@@ -7,11 +7,11 @@
     <title>Startup</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
-    <link ref='stylesheet' href='css/an.css' />
-    <link ref='stylesheet' href='css/hieu.css' />
-    <link ref='stylesheet' href='css/hugo.css' />
-    <link rel="stylesheet" type='text/css' href="css/linh.css">
-    <link ref='stylesheet' href='css/thuong.css' />
+    <link rel='stylesheet' type='text/css' href='css/hugo.css' />
+    <link rel='stylesheet' type='text/css' href='css/linh.css' />
+    <link rel='stylesheet' type='text/css' href='css/thuong.css' />
+    <link rel='stylesheet' type='text/css' href='css/hieu.css' />
+    <link rel='stylesheet' type='text/css' href='css/an.css'>
 </head>
 
 <body>
@@ -20,95 +20,53 @@
     <!-- Thuong's part -->
 
     <!-- Linh's part -->
-    <section class="linh-cities-title">
-        <div>
-            <div class="linh-cities-title-wrapper">
-                <h3>Freelancers close to you</h3>
-                <a href="#">
-                    <span class="text-muted linh-cities-wrapper-text">See more cities</span>
-                    <i class="fa fa-chevron-right linh-cities-wrapper-text"></i>
-                </a>
-            </div>
-            <ul class="linh-cities-img">
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <source srcset="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/ho-hoan-kiem-3.jpg" type="image/svg+xml">
-                            <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/07/ho-hoan-kiem-3.jpg" class="linh-img " />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Ha Noi</span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <source srcset="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/20/16/ho-chi-minh-city.jpg?w968h681" type="image/svg+xml">
-                            <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2017/06/20/16/ho-chi-minh-city.jpg?w968h681" class="linh-img" />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Sai Gon </span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/94/66/7d.jpg" class="linh-img" />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Da Nang</span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <ul class="linh-cities-img">
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <img src="https://thamhiemmekong.com/wp-content/uploads/2019/05/cau-di-bo-can-tho.jpg" class="linh-img" />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Can Tho</span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <img src="https://image.thanhnien.vn/1080/uploaded/dieutrang.qc/2019_10_21/haiphong/anh3_rpqk.jpg" class="linh-img" />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Hai Phong</span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="container">
-                        <picture aria-hidden="true">
-                            <img src="https://i2.wp.com/wanderlusttips.com/wp-content/uploads/2017/04/wanderlust-tips-8-diem-tham-quan-khong-the-bo-qua-tai-Hue-vao-buoi-toi-4.jpg?resize=800%2C482" class="linh-img" />
-                        </picture>
-                        <div class="linh-img-text">
-                            <a href="#">
-                                <span class="linh-img-text-style">Hue</span>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+    <div class="container linh-container linh-custom-font">
+        <div class="linh-cities-title-wrapper">
+            <h3 class="linh-cities-title-text">Freelancers close to you</h3>
+            <a href="#">
+                <span class="text-muted linh-cities-wrapper-text">See more cities</span>
+                <i class="fa fa-chevron-right linh-cities-wrapper-text"></i>
+            </a>
         </div>
-    </section>
+        <div class="container">
+            <div class="linh-tab">
+                <button class="linh-tablinks" onclick="openCity(event, 'hcm')" id="defaultOpen">Ho Chi Minh</button>
+                <button class="linh-tablinks" onclick="openCity(event, 'dn')">Da Nang</button>
+                <button class="linh-tablinks" onclick="openCity(event, 'hn')">Ha Noi</button>
+            </div>
+            <div id="hcm" class="linh-tabcontent">
+                <img src="img/ho chi minh.jpg" class="linh-img" alt="Ho Chi Minh">
+            </div>
+            <div id="dn" class="linh-tabcontent">
+                <img src="img/da-nang.jpg" class="linh-img" alt="Da Nang">
+            </div>
+            <div id="hn" class="linh-tabcontent">
+                <img src="img/ha-noi.jpg" class="linh-img" alt="Ha Noi">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("linh-tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("linh-tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <!-- An's part -->
 
     <!-- Hugo's part -->

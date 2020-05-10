@@ -1,7 +1,26 @@
+@font-face {
+    font-family: linh-custom-font;
+    src: url(/font/buenosaires-regular.woff);
+}
+
+.linh-custom-font {
+    font-family: linh-custom-font;
+}
+
+.linh-container {
+    margin: 100px auto;
+}
+
 .linh-cities-title-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 45px;
+    padding: 0 25px;
+    width: 100%;
+}
+
+.linh-cities-title-text {
+    letter-spacing: 2px;
 }
 
 .linh-cities-wrapper-text {
@@ -9,58 +28,68 @@
     text-decoration: none;
 }
 
-.linh-cities-title {
-    font-family: 'Courier New', Courier, monospace
+.linh-tab {
+    float: right;
+    border: 1px solid #6a0dad;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.linh-img {
+.linh-tab button {
     display: block;
-    height: 300px;
-    transition: .5s ease;
-    width: 400px;
-    border-bottom-left-radius: 20px;
+    background-color: inherit;
+    border: none;
+    color: black;
+    width: 100%;
+    height: 100px;
+    padding: 22px 16px;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.linh-tab button:nth-child(1) {
     border-top-right-radius: 20px;
 }
 
-.linh-cities-img {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
+.linh-tab button:nth-child(3) {
+    border-bottom-right-radius: 20px;
 }
 
-.container {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.linh-tab button:hover {
+    color: #e9d8f2;
+    background-color: #6a0dad;
+}
+
+.linh-tab button.active {
+    color: #e9d8f2;
+    background-color: #6a0dad;
+}
+
+.linh-tabcontent {
+    background-color: #6a0dad;
+    float: right;
+    width: 70%;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    display: flex;
 }
 
-.linh-img-text {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
-.linh-img-text-style {
-    background-color: transparent;
-    color: black;
-    font-size: 25px;
-    padding: 16px 32px;
-    line-height: 1.5;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.container:hover .linh-img {
-    opacity: 0.3;
-}
-
-.container:hover .linh-img-text {
-    opacity: 1;
+.linh-img {
+    display: inline-block;
+    width: auto;
+    max-width: 95%;
+    height: auto;
+    max-height: 90%;
+    border-radius: 15px;
 }
