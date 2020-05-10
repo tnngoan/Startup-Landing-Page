@@ -59,13 +59,19 @@ input[type=text] {
   }
 #banner{
     color:white;
-    background-image: url('../img/BannerPoster.png');
+    background-image: url('https://mewallpaper.com/thumbnail/food/5185-latte-art-cappuccino-cup-download-hd-wallpaper.jpg');
     background-repeat: no-repeat;
     align-items:center;
-    background-position: center;
+    background-position: left;
     background-size: 100%;
     box-shadow: 0 10px 40px rgba(59, 43, 91, 0.3);
 }
 .nav-item{
     color: yellow;
+}
+.nav-link:hover{
+    color: #084A83;
+  text-shadow: 1px 1px 2px #084A83, 0 0 5px white, 0 0 2px pink;
+
+  text-align: center;
 }

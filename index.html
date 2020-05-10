@@ -16,7 +16,7 @@
     <link rel='stylesheet' type='text/css' href='css/an.css'>
 </head>
 
-<body>
+<body class='linh-custom-font'>
     <!-- Hieu's part -->
     <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
@@ -101,81 +101,102 @@
             </div>
         </div>
     </div>
-    <nav class="navnavnav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <a class="navbar-brand" href="index.html">
-                <img src="img/logo_transparent.png" alt="logo" style="width:40px;">
+    <div>
+        <!-- responsive nav -->
+        <nav class="mb-5 navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src='img/tilkee.png' title='Tilkee' width="80px" height="70px" />
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li>
-                        <div class="dropdown show">
-
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Professions
-                            </a>
-
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Tech</a>
-                                <a class="dropdown-item" href="#">Data Science</a>
-                                <a class="dropdown-item" href="#">Web-Design</a>
-                                <a class="dropdown-item" href="#">Software-Developer</a>
-                                <a class="dropdown-item" href="#">Game-Developer</a>
-                                <a class="dropdown-item" href="#">Music/Video</a>
-                                <a class="dropdown-item" href="#">Communication</a>
-                                <a class="dropdown-item" href="#">Marketer</a>
-                                <a class="dropdown-item" href="#">Graphic Designer</a>
-
-                            </div>
-                    </li>
-                    <li><button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="#section3">I am a
-                                Freelancer</a></button></li>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="hieuSignupForm.html">Subscribe</a>
+                        <a class="nav-link" href="hieuLoginForm.html">Log in</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="hieuLoginForm.html">Login</a>
+                        <a class="nav-link" href="hieuSignupform.html">Sign up</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContactForm">Help</a>
+                        <a class="nav-link" href="#">Help</a>
                     </li>
-
-                    <li class="nav-item">
-                        <nav class="navbar navbar-light bg-light">
-
-                        </nav>
-                    </li>
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">I'm a freelancer</button>
+                </form>
             </div>
         </nav>
 
+        <!-- <nav class="navnavnav">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo_transparent.png" alt="logo" style="width:50px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li>
+                    <div class="dropdown show">
+
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Professions
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Tech</a>
+                            <a class="dropdown-item" href="#">Data Science</a>
+                            <a class="dropdown-item" href="#">Web-Design</a>
+                            <a class="dropdown-item" href="#">Software-Developer</a>
+                            <a class="dropdown-item" href="#">Game-Developer</a>
+                            <a class="dropdown-item" href="#">Music/Video</a>
+                            <a class="dropdown-item" href="#">Communication</a>
+                            <a class="dropdown-item" href="#">Marketer</a>
+                            <a class="dropdown-item" href="#">Graphic Designer</a>
+
+                        </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hieuSignupForm.html">Subscribe</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hieuLoginForm.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContactForm">Help</a>
+                </li>
+                <li><button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="#section3">I am a
+                    Freelancer</a></button></li>
+            </ul>
+        </div>
     </nav>
 
-    <section>
-        <div id="banner" class="jumbotron">
-            <h1 class="display-4 text-center margin-bottom">Get Freelancers nearby your area </h1>
-            <h2 class="text-center text-center margin-bottom">Collaborate With Us - Deal with project faster</h2>
-            <div class="text-center lg">
-                <form class="margin-bottom">
-                    <input type="text" name="search" placeholder="Search..">
-                </form>
+</nav> -->
 
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="#section2">Find Freelancer
-                        Nearby</a></button>
+        <main class='mt-5 pt-5 hieu-poster'>
+            <div id='banner' class="jumbotron display-4 text-center margin-bottom">
+                <h1 class="display-4 an-text an-slide-bottom">Collaborate With Us!</h1>
+                <h2 class="lead an-slide-bottom"> Deal with project faster</h2>
+                <hr class="my-4">
+                <div class="text-center lg an-slide-bottom">
+                    <form class="margin-bottom">
+                        <input type="text" name="search" placeholder="Search...">
+                    </form>
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">
+                        Freelancers near me
+                    </button>
+                </div>
             </div>
+        </main>
+    </div>
 
-    </section>
     <!-- Thuong's part -->
+    
     <div class='thuong-section'>
         <section class="thuong-companyreview">
             <h1 class="thuong-title d-none d-sm-block"> Master every step of your freelance services</h1>
@@ -285,7 +306,7 @@
             </div>
         </section>
     </div>
-
+    <hr class="my-2">
     <!-- Linh's part -->
     <div id="section2" class="container linh-container linh-custom-font">
         <div class="linh-cities-title-wrapper">
@@ -296,9 +317,9 @@
             </a>
         </div>
         <div class="linh-tab">
-            <button class="linh-tablinks" onclick="openCity(event, 'hcm')" id="defaultOpen">Ho Chi Minh</button>
-            <button class="linh-tablinks" onclick="openCity(event, 'dn')">Da Nang</button>
-            <button class="linh-tablinks" onclick="openCity(event, 'hn')">Ha Noi</button>
+            <button class="linh-tablinks ml-2" onclick="openCity(event, 'hcm')" id="defaultOpen">Ho Chi Minh</button>
+            <button class="linh-tablinks ml-2" onclick="openCity(event, 'dn')">Da Nang</button>
+            <button class="linh-tablinks ml-2" onclick="openCity(event, 'hn')">Ha Noi</button>
         </div>
         <div id="hcm" class="linh-tabcontent">
             <img src="img/ho chi minh.jpg" class="linh-img" alt="Ho Chi Minh">
@@ -338,28 +359,25 @@
         crossorigin="anonymous"></script>
 
     <!-- An's part -->
-    <div class='an-section'>
+    <div class='an-section pt-5 mt-5 pb-5 mb-5'>
         <!-- Companies -->
         <div class='container'>
             <div class="col d-flex justify-content-center pt-5" style='text-align: center; align-items: center;'>
                 <div class='container row d-flex flex-column an-slide-bottom'>
-                    <h4 class='an-text'>OVER</h4>
-                    <h1 class='an-txtshadow pt-4 pb-2'> 110,000 </h1>
-                    <h4 class='an-text'>COMPANIES CONNECTED</h4>
+                    <h1 class='an-txtshadow pt-4 pb-2'>over     100,000 </h1>
+                    <h2 class='an-text'>Companies have been working with US</h2>
                 </div>
                 <div class="container row d-flex justify-content-center">
-                    <img class="p-1 an-company mt-3" title='company' src="img/mona.jpg" />
-                    <img class="p-1 an-company mt-3" title='company' src="img/fujinet.png" />
-                    <img class="p-1 an-company mt-3" title='company' src="img/kms.png" />
+                    <img class="p-1 an-company m-2" title='company' src="img/mona.jpg" />
+                    <img class="p-1 an-company m-2" title='company' src="img/fujinet.png" />
+                    <img class="p-1 an-company m-2" title='company' src="img/kms.png" />
+                    <img class="p-1 an-company m-2" title='company' src="img/amazon-logo.png" />
+                    <img class="p-1 an-company m-2" title='company' src="img/cmc.jpg" />
                     <div class="w-100"></div>
-                    <img class="p-1 an-company mt-3" title='company' src="img/amazon-logo.png" />
-                    <img class="p-1 an-company mt-3" title='company'
-                        src="https://www.ultrasyncsports.com/wp-content/uploads/2020/02/logotma.png" />
-                    <img class="p-1 an-company mt-3" title='company' src="img/cmc.jpg" />
                     <div class="w-100"></div>
-                    <img class="p-1 an-company mt-3" title='company' src="img/misa.jpg" />
-                    <img class="p-1 an-company mt-3" title='company' src="img/nash.jpg" />
-                    <img class="p-1 an-company mt-3" title='company' src="img/fpt.jpg" />
+                    <img class="p-1 an-company m-2" title='company' src="img/misa.jpg" />
+                    <img class="p-1 an-company m-2" title='company' src="img/nash.jpg" />
+                    <img class="p-1 an-company m-2" title='company' src="img/fpt.jpg" />
                 </div>
             </div>
         </div>
@@ -396,10 +414,10 @@
                         <img class="an-img card-img-top" src="img/handsome_guy_1.jpg" alt="Card image cap">
                         <div class="card-body card-img-overlay">
                             <div class='an-name mt-5'>
-                                <p class="card-title">I'm in LOVE with bootstrap</p>
+                                <p class="card-title">I'm in LOVE with bootstrap!</p>
                             </div>
                         </div>
-                        <h2 class="card-text an-names">Hieu</h2>
+                        <h2 class="card-text an-names ">Hieu</h2>
                         <h4 class="an-role card-footer">Dev</h4>
                     </div>
                 </div>
@@ -543,7 +561,7 @@
                             <Div class="containertwo ">
                                 <label for="staticEmail2" class="sr-only">Email</label>
                                 <input type="text" readonly class="form-control-plaintext" id="staticEmail2"
-                                    value="Tilkee Newsletter">
+                                    value="Newsletter">
                             </div>
                             <div class="form-group mx-sm-3 mb-2">
                                 <label for="inputPassword2" class="sr-only">Your Email Adress</label>
