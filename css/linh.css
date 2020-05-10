@@ -31,7 +31,7 @@
 
 .linh-tab {
     float: right;
-    border: 1px solid lightgrey;
+    /* border: 1px solid #084A83; */
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 30%;
@@ -66,24 +66,24 @@
 
 .linh-tab button:hover {
     color: black;
-    background-color: lightgrey;
+    background-color: lightblue;
 }
 
 .linh-tab button.active {
-    color: black;
-    background-color: lightgrey;
+    color: white;
+    background-color: #084A83;
 }
 
 .linh-tabcontent {
-    background-color: lightgrey;
+    background-color: white;
     float: right;
     width: 70%;
     height: 300px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 2px double #084A83;
 }
 
 .linh-img {
