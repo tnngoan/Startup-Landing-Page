@@ -5,6 +5,7 @@
 
 .an-section {
   background-color: white;
+  margin-top: 70px;
 }
 .an-container {
   display: flex;
@@ -154,4 +155,12 @@ color: #084A83;
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
+}
+
+
+.an-text-carousel{
+  color: lightblue;
+  text-shadow: 1px 1px 2px #084A83, 0 0 5px blue, 0 0 2px black;
+  padding-top: 30px;
+  text-align: center;
 }
