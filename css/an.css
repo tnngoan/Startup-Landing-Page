@@ -1,3 +1,6 @@
+.an-section {
+  background-color: black;
+}
 .an-container {
   display: flex;
   justify-content: space-between;
@@ -9,44 +12,70 @@
 
 .an-card {
   border: none;
+  color: whitesmoke;
   text-align: center;
   align-items: center;
+  padding-top: 20px;
+  background-color: black;
+}
+.an-card:hover{
+  background-color: whitesmoke;
+  box-shadow: 15px -15px 5px white;
+  border: 2px double black;
 }
 .an-card:hover .an-role {
-  opacity: 0;
+  border: 1px solid lightgray;
+  border-radius: 3px;
 }
 .an-card:hover .an-img {
-  opacity: 0.2;
+  opacity: 0.1;
+  border: 50px solid lightgray;
+  background-color: #33312E;
+  box-shadow: -2px 2px 10px darkgray;
+  border-radius: 0px;
+  /* background-color: whitesmoke; */
 }
 .an-img {
-  border-radius: 3%;
+  border-radius: 3px;
+  border: 2px double black;
   min-height: 250px;
   max-height: 250px;
   max-width: 100%;
   min-width: 95%;
   transition: 0.5s ease;
+  box-shadow: -7px 7px 10px white;
 }
 .an-name {
   opacity: 0;
   position: relative;
   top: 0;
   right: 0;
-  font-weight: 500;
+  font-weight: 700;
   max-width: 80%;
   margin-left: 8%;
+  align-items: baseline;
+  color: black;
 }
 .an-names {
   text-align: right;
+  align-items: flex-end;
 }
 .an-centered {
   text-align: center;
+}
+.an-role {
+  width: 100%;
+  background-color: black;
+  box-shadow: -4px 4px 10px white;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 .an-company {
   box-shadow: -2px 2px 4px lightgrey;
   border-radius: 3px;
   padding: 0px;
   transition: transform 0.8s;
-  border: 3px double white;
+  border: 1px double white;
   min-height: 100px;
   max-height: 100px;
   min-width: 160px;
@@ -71,7 +100,6 @@
 
 .an-txtshadow {
   color: white;
-  font-size: 100px;
   text-shadow: 1px 1px 2px black, 0 0 15px gray, 0 0 5px whitesmoke;
   font-weight: 700;
   padding-top: 20px;
@@ -80,7 +108,6 @@
 .an-text {
   color: rgb(94, 93, 93);
   text-shadow: 1px 1px 2px black, 0 0 5px darkgrey, 0 0 2px white;
-  font-size: 29px;
   padding-top: 30px;
   text-align: center;
 }
