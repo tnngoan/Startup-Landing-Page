@@ -1,15 +1,112 @@
 
-
-.containertwo {
-    display: flex;
+.an-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 120px;
 }
 
-.social-icons a{
-    display: flex;
-align-items: center;
+.an-card {
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+.an-card:hover .an-role {
+  opacity: 0;
+}
+.an-card:hover .an-img {
+  opacity: 0.2;
+}
+.an-img {
+  border-radius: 3%;
+  min-height: 250px;
+  max-height: 250px;
+  max-width: 100%;
+  min-width: 95%;
+  transition: 0.5s ease;
+}
+.an-name {
+  opacity: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  font-weight: 500;
+  max-width: 80%;
+  margin-left: 8%;
+}
+.an-names {
+  text-align: right;
+}
+.an-centered {
+  text-align: center;
+}
+.an-company {
+  box-shadow: -2px 2px 4px lightgrey;
+  border-radius: 3px;
+  padding: 0px;
+  transition: transform 0.8s;
+  border: 3px double white;
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 160px;
+  max-width: 160px;
+}
+.an-col5 {
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 200px;
+  max-width: 200px;
+}
+.an-company:hover {
+  box-shadow: -8px 8px 8px lightgrey;
+  border: 0px solid whitesmoke;
+}
+.an-card:hover .an-name {
+  opacity: 1;
+}
+.an-spacearound {
+  justify-content: space-around;
 }
 
-.container text-left {
-    margin-top: 10px;
+.an-txtshadow {
+  color: white;
+  font-size: 100px;
+  text-shadow: 1px 1px 2px black, 0 0 15px gray, 0 0 5px whitesmoke;
+  font-weight: 700;
+  padding-top: 20px;
 }
 
+.an-text {
+  color: rgb(94, 93, 93);
+  text-shadow: 1px 1px 2px black, 0 0 5px darkgrey, 0 0 2px white;
+  font-size: 29px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.an-slide-bottom {
+  -webkit-animation: slide-bottom 1s ease-out both;
+  animation: slide-bottom 1s ease-out both;
+}
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
