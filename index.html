@@ -7,6 +7,8 @@
     <title>Startup</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
     <link rel='stylesheet' type='text/css' href='css/hugo.css' />
     <link rel='stylesheet' type='text/css' href='css/linh.css' />
     <link rel='stylesheet' type='text/css' href='css/thuong.css' />
@@ -16,109 +18,407 @@
 
 <body>
     <!-- Hieu's part -->
+    <div>
 
-    <!-- Thuong's part -->
-
-
-
-
-
-
-
-    <!-- Linh's part -->
-
-    <!-- An's part -->
-
-
-    <!-- Team members -->
-<div class='an-section'>
-    <div class="container an-section pt-5 pb-5 mb-5 mt-5">
-        <div class="row">
-            <div class="col-sm">
-                <div class="an-card container card mb-3">
-                    <img class="an-img card-img-top" src="img/Photo-Hugo.jpg" alt="Card image cap">
-                    <div class="card-body card-img-overlay">
-                        <div class='an-name mt-5'>
-                            <p class="card-title">I said I don't like shadow!!!</p>
-                            <h4 class="card-text an-names">Hugo</h4>
-                        </div>
-                    </div>
-                    <h5 class="mt-3 mb-3 an-role card-footer">PO</h5>
+    </div>
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class=" an-card container card mb-3">
-                    <img class="an-img card-img-top" src="img/linlinh.jpg" alt="Card image cap">
-                    <div class="card-body card-img-overlay">
-                        <div class='an-name'>
-                            <p class="card-title">I gotta leave by 4PM</p>
-                            <h4 class="card-text an-names">Linh</h4>
-                        </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="form34" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
                     </div>
-                    <h5 class="mt-3 mb-3 an-role card-footer">Dev</h5>
+                    <div class="md-form mb-5">
+                        <i class="fas fa-envelope prefix grey-text"></i>
+                        <input type="email" id="form29" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                    </div>
+                    <div class="md-form mb-5">
+                        <i class="fas fa-tag prefix grey-text"></i>
+                        <input type="text" id="form32" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="fas fa-pencil prefix grey-text"></i>
+                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                        <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm">
-                <div class=" an-card container card mb-3">
-                    <img class="an-img card-img-top" src="img/handsome_guy_1.jpg" alt="Card image cap">
-                    <div class="card-body card-img-overlay">
-                        <div class='an-name'>
-                            <p class="card-title">I'm in LOVE with bootstrap</p>
-                            <h4 class="card-text an-names">Hieu</h4>
-                        </div>
-                    </div>
-                    <h5 class="mt-3 mb-3 an-role card-footer">Dev</h5>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class=" an-card container card mb-3">
-                    <img class="an-img card-img-top" src="img/IMG_5128.jpg" alt="Card image cap">
-                    <div class="card-body card-img-overlay">
-                        <div class='an-name'>
-                            <p class="card-title">I've been working on photos of handsome guys</p>
-                            <h4 class="card-text an-names">Thuong</h4>
-                        </div>
-                    </div>
-                    <h5 class="mt-3 mb-3 an-role card-footer">Dev</h5>
-                </div>
-            </div>
-            <div class="col-sm">
-                <div class="an-card container card mb-3">
-                    <img class="an-img card-img-top" src="img/an.jpg" alt="Card image cap">
-                    <div class="card-body card-img-overlay">
-                        <div class='an-name'>
-                            <p class="card-title">OMG! Don't make me change things!!!</p>
-                            <h4 class="card-text an-names">An</h4>
-                        </div>
-                    </div>
-                    <h5 class="mt-3 mb-3 an-role card-footer">SM</h5>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
                 </div>
             </div>
         </div>
     </div>
-</div>
-
-    <!-- Companies -->
-    <div class='container'>
-        <div class="d-flex justify-content-center" style='text-align: center; align-items: center;'>
-            <div class="container row d-flex justify-content-between">
-                <img class="p-1 an-company mt-3" title='company' src="img/mona.jpg" />
-                <img class="p-1 an-company mt-3" title='company' src="img/fujinet.png" />
-                <img class="p-1 an-company mt-3" title='company' src="img/kms.png" />
-                <div class="w-100"></div>
-                <img class="p-1 an-company mt-3" title='company' src="img/amazon-logo.png" />
-                <img class="p-1 an-company mt-3" title='company'
-                    src="https://www.ultrasyncsports.com/wp-content/uploads/2020/02/logotma.png" />
-                <img class="p-1 an-company mt-3" title='company' src="img/cmc.jpg" />
-                <div class="w-100"></div>
-                <img class="p-1 an-company mt-3" title='company' src="img/misa.jpg" />
-                <img class="p-1 an-company mt-3" title='company' src="img/nash.jpg" />
-                <img class="p-1 an-company mt-3" title='company' src="img/fpt.jpg" />
+    <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <div class="md-form mb-5">
+                        <i class="fas fa-user prefix grey-text"></i>
+                        <input type="text" id="form34" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                    </div>
+                    <div class="md-form mb-5">
+                        <i class="fas fa-envelope prefix grey-text"></i>
+                        <input type="email" id="form29" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form29">Your number</label>
+                    </div>
+                    <div class="md-form mb-5">
+                        <i class="fas fa-tag prefix grey-text"></i>
+                        <input type="text" id="form32" class="form-control validate">
+                        <label data-error="wrong" data-success="right" for="form32">Subject</label>
+                    </div>
+                    <div class="md-form">
+                        <i class="fas fa-pencil prefix grey-text"></i>
+                        <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+                        <label data-error="wrong" data-success="right" for="form8">Your message</label>
+                    </div>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+                </div>
             </div>
-            <div class='container row d-flex flex-column'>
-                <h5 class='an-text'>OVER</h5>
-                <h1 class='an-txtshadow'> 110,000 </h1>
-                <h5 class='an-text'>COMPANIES CONNECTED</h5>
+        </div>
+    </div>
+    <nav class="navnavnav">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo_transparent.png" alt="logo" style="width:80px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Professions</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="#">Tech</a>
+                            <a class="dropdown-item" href="#">Data Science</a>
+                            <a class="dropdown-item" href="#">Web-Design</a>
+                            <a class="dropdown-item" href="#">Software-Developer</a>
+                            <a class="dropdown-item" href="#">Game-Developer</a>
+                            <a class="dropdown-item" href="#">Music/Video</a>
+                            <a class="dropdown-item" href="#">Communication</a>
+                            <a class="dropdown-item" href="#">Marketer</a>
+                            <a class="dropdown-item" href="#">Graphic Designer</a>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="nav-righter">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            <a href="#section3">I am a Freelancer</a>
+                        </button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hieuSignupForm.html">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hieuLoginForm.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalContactForm">Help</a>
+                    </li>
+                    <li class="nav-item">
+                        <nav class="navbar navbar-light bg-light">
+                            <form class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </nav>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <section>
+        <div id="banner" class="jumbotron">
+            <h1 class="display-4 text-center margin-bottom">Get Freelancers nearby your area </h1>
+            <h2 class="text-center text-center margin-bottom">Collaborate With Us - Deal with project faster</h2>
+            <div class="text-center lg">
+                <form class="margin-bottom">
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="#section2">Find Freelancer
+                        Nearby</a></button>
+            </div>
+    </section>
+    <!-- Thuong's part -->
+    <div class='thuong-section'>
+        <section class="thuong-companyreview">
+            <h1 class="thuong-title d-none d-sm-block"> Master every step of your freelance services</h1>
+            <ul class="thuong-list row">
+                <li class="thuong-number-text col-12 col-md-4">
+                    <div class="thuong-number"> 1</div>
+                    <div> You can find any freelancers in Vietnam by searching fuction </div>
+                </li>
+                <li class="thuong-number-text col-12 col-md-4">
+                    <div class="thuong-number"> 2</div>
+                    <div> Decide together on the project that you want to work together </div>
+                </li>
+                <li class="thuong-number-text col-12 col-md-4">
+                    <div class="thuong-number"> 3</div>
+                    <div> Discuss about the payment at the end of the mission </div>
+                </li>
+            </ul>
+        </section>
+        <section class="thuong-title ">
+            <h1 class="thuong-title d-none d-sm-block"> Find the right Freelancer for your project </h1>
+        </section>
+        <section class="row thuong-member-section ">
+            <div class="col-12 col-md-4 ">
+                <div class="card bg-dark text-white thuong-card">
+                    <img class="card-img" src="/img/member1.jpg" alt="Card image" class="w3-image" height="auto"
+                        width="400" />
+                    <div class="card-img-overlay">
+                        <h5 class="thuong-member-title">Graphic designer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="thuong-small-teammember col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member2.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">UX-designer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member3.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title"> Coder </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member9.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">Designer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member4.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">React.JS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thuong-membergroup col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member5.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">Administrator</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thuong-membergroup col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member6.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">Controller</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thuong-membergroup col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member7.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">Graphic Designer</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thuong-membergroup col-12 col-md-3">
+                        <div class="card bg-dark text-white thuong-card">
+                            <img class="card-img" src="/img/member8.jpg" alt="Card image" class="w3-image" height="auto"
+                                width="400">
+                            <div class="card-img-overlay">
+                                <h5 class="thuong-member-title">Graphic Designer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Linh's part -->
+    <div id="section2" class="container linh-container linh-custom-font">
+        <div class="linh-cities-title-wrapper">
+            <h3 class="linh-cities-title-text">Freelancers close to you</h3>
+            <a href="#">
+                <span class="text-muted linh-cities-wrapper-text">See more cities</span>
+                <i class="fa fa-chevron-right linh-cities-wrapper-text"></i>
+            </a>
+        </div>
+        <div class="linh-tab">
+            <button class="linh-tablinks" onclick="openCity(event, 'hcm')" id="defaultOpen">Ho Chi Minh</button>
+            <button class="linh-tablinks" onclick="openCity(event, 'dn')">Da Nang</button>
+            <button class="linh-tablinks" onclick="openCity(event, 'hn')">Ha Noi</button>
+        </div>
+        <div id="hcm" class="linh-tabcontent">
+            <img src="img/ho chi minh.jpg" class="linh-img" alt="Ho Chi Minh">
+        </div>
+        <div id="dn" class="linh-tabcontent">
+            <img src="img/da-nang.jpg" class="linh-img" alt="Da Nang">
+        </div>
+        <div id="hn" class="linh-tabcontent">
+            <img src="img/ha-noi.jpg" class="linh-img" alt="Ha Noi">
+        </div>
+    </div>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("linh-tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("linh-tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "";
+            evt.currentTarget.className += " active";
+        }
+
+        document.getElementById("defaultOpen").click();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <!-- An's part -->
+    <div class='an-section'>
+        <!-- Companies -->
+        <div class='container'>
+            <div class="col d-flex justify-content-center pt-5" style='text-align: center; align-items: center;'>
+                <div class='container row d-flex flex-column an-slide-bottom'>
+                    <h4 class='an-text'>OVER</h4>
+                    <h1 class='an-txtshadow pt-4 pb-2'> 110,000 </h1>
+                    <h4 class='an-text'>COMPANIES CONNECTED</h4>
+                </div>
+                <div class="container row d-flex justify-content-center">
+                    <img class="p-1 an-company mt-3" title='company' src="img/mona.jpg" />
+                    <img class="p-1 an-company mt-3" title='company' src="img/fujinet.png" />
+                    <img class="p-1 an-company mt-3" title='company' src="img/kms.png" />
+                    <div class="w-100"></div>
+                    <img class="p-1 an-company mt-3" title='company' src="img/amazon-logo.png" />
+                    <img class="p-1 an-company mt-3" title='company'
+                        src="https://www.ultrasyncsports.com/wp-content/uploads/2020/02/logotma.png" />
+                    <img class="p-1 an-company mt-3" title='company' src="img/cmc.jpg" />
+                    <div class="w-100"></div>
+                    <img class="p-1 an-company mt-3" title='company' src="img/misa.jpg" />
+                    <img class="p-1 an-company mt-3" title='company' src="img/nash.jpg" />
+                    <img class="p-1 an-company mt-3" title='company' src="img/fpt.jpg" />
+                </div>
+            </div>
+        </div>
+        <!-- Team members -->
+        <div class="container an-section pt-5 pb-5 mb-5 mt-5">
+            <h1 class='an-text pb-5 pt-5'>MEET OUR TEAM MEMBERS</h1>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="an-card container card mb-3">
+                        <img class="an-img card-img-top" src="img/Photo-Hugo.jpg" alt="Card image cap">
+                        <div class="card-body card-img-overlay">
+                            <div class='an-name mt-5'>
+                                <p class="card-title">I said I don't like shadow!!!</p>
+                            </div>
+                        </div>
+                        <h2 class="card-text an-names">Hugo</h2>
+                        <h4 class="an-role card-footer">PO</h4>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="an-card container card mb-3">
+                        <img class="an-img card-img-top" src="img/linlinh.jpg" alt="Card image cap">
+                        <div class="card-body card-img-overlay">
+                            <div class='an-name mt-5'>
+                                <p class="card-title">I gotta leave by 4PM</p>
+                            </div>
+                        </div>
+                        <h2 class="card-text an-names">Linh</h2>
+                        <h4 class="an-role card-footer">Dev</h4>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" an-card container card mb-3">
+                        <img class="an-img card-img-top" src="img/handsome_guy_1.jpg" alt="Card image cap">
+                        <div class="card-body card-img-overlay">
+                            <div class='an-name mt-5'>
+                                <p class="card-title">I'm in LOVE with bootstrap</p>
+                            </div>
+                        </div>
+                        <h2 class="card-text an-names">Hieu</h2>
+                        <h4 class="an-role card-footer">Dev</h4>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" an-card container card mb-3">
+                        <img class="an-img card-img-top" src="img/IMG_5128.jpg" alt="Card image cap">
+                        <div class="card-body card-img-overlay">
+                            <div class='an-name mt-5'>
+                                <p class="card-title">I've been working on photos of handsome guys</p>
+                            </div>
+                        </div>
+                        <h2 class="card-text an-names">Thuong</h2>
+                        <h4 class="an-role card-footer">Dev</h4>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="an-card container card mb-3">
+                        <img class="an-img card-img-top" src="img/an.jpg" alt="Card image cap">
+                        <div class="card-body card-img-overlay">
+                            <div class='an-name mt-5'>
+                                <p class="card-title">OMG! Don't make me change things!!!</p>
+                            </div>
+                        </div>
+                        <h2 class="card-text an-names">An</h2>
+                        <h4 class="an-role card-footer">SM</h4>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
